@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity17">
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Location"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/b_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Get Location"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp">
+    </Button>
+
+</LinearLayout>

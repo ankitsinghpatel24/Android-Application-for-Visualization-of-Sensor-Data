@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="SETTINGS">
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Enable Night Mode">
+
+        <CheckBoxPreference
+            android:title="Night Mode"
+            android:key="NIGHT"
+            android:defaultValue="false"
+            android:summaryOn="Night mode enabled"
+            android:summaryOff="Night mode disabled"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Screen Orientation">
+
+        <ListPreference
+            android:defaultValue="false"
+            android:key="ORIENTATION"
+            android:entries="@array/items_name"
+            android:entryValues="@array/items_value"
+            android:title="Orientation"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notifications">
+
+        <ListPreference
+            android:defaultValue="false"
+            android:key="NOTIFICATIONS"
+            android:entries="@array/items_name2"
+            android:entryValues="@array/items_value2"
+            android:title="Notifications"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Do Not Disturb">
+
+        <CheckBoxPreference
+            android:title="Do not disturb"
+            android:key="DND"
+            android:defaultValue="false"
+            android:summaryOn="Notifications will not make sound or vibrate"
+            android:summaryOff="Notifications sound or vibration is on"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
